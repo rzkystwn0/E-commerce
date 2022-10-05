@@ -3,9 +3,9 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-  <ThemeProvider>
+    // <ThemeProvider>
     <Component {...pageProps} />
-  </ThemeProvider>
+    // </ThemeProvider>
   );
 }
 
