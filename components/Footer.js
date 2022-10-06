@@ -1,4 +1,5 @@
 function Footer() {
+  
   return (
     <>
       <div className="bg-[#8691A0]">
@@ -30,7 +31,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="text-center bg-[#565656] sm:py-6 py-4 poppins text-white">
+        <div className="text-center bg-[#565656] sm:py-6 py-4 poppins text-white text-xs">
           <p>
             COPYRIGHT © 2022. Developed by{" "}
             <a href="https://rzkystwn.netlify.app/" className="italic underline" target="_blank">
