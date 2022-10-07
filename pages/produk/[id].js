@@ -73,7 +73,7 @@ function produk(props) {
         </div>
         <div className="md:w-6/12 px-4">
           <p className="text-2xl poppins my-2">{prod[0].nama}</p>
-          <p className="text-xl poppins my-2 font-semibold">{prod[0].hrg}</p>
+          <p className="text-xl poppins my-2 font-semibold">Rp.{prod[0].hrg}</p>
           <button className="text-white poppins bg-[#F8D94C] py-4 px-16 rounded-xl md:block hidden my-16">Beli</button>
         </div>
       </div>
